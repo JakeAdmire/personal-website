@@ -3,7 +3,13 @@ import {
     FaReact,
     FaNodeJs,
     FaPencilAlt,
-    FaDatabase
+    FaDatabase,
+    FaUser,
+    FaTools,
+    FaGraduationCap,
+    FaBriefcase,
+    FaGithub,
+    FaEnvelope
 } from "react-icons/fa";
 
 export {
@@ -11,5 +17,11 @@ export {
     FaReact,
     FaNodeJs,
     FaPencilAlt,
-    FaDatabase
+    FaDatabase,
+    FaUser,
+    FaTools,
+    FaGraduationCap,
+    FaBriefcase,
+    FaGithub,
+    FaEnvelope
 };
