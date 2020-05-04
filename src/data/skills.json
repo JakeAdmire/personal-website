@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Web Design & Development",
+        "icon": "FaHtml5",
+        "related": "HTML/ CSS/ JavaScript/ TypeScript"
+    },
+    {
+        "title": "Front-End Frameworks",
+        "icon": "FaReact",
+        "related": "Angular #/ React/ Gatsby/ Vue"
+    },
+    {
+        "title": "Back-End Frameworks",
+        "icon": "FaNodeJs",
+        "related": "Node.js/ Express.js"
+    },
+    {
+        "title": "UI/UX Design",
+        "icon": "FaPencilAlt",
+        "related": "Adobe XD/ Figma/ Sketch/ Gravit"
+    },
+    {
+        "title": "Database Management System",
+        "icon": "FaDatabase",
+        "related": "PostgreSQL/ SOQL"
+    }
+]
