@@ -2,6 +2,7 @@ import React from "react";
 
 import * as Icons from "./Icons";
 import skills from "../data/skills";
+import Header from "./Header";
 
 
 const Skills = () => {
@@ -26,10 +27,13 @@ const Skills = () => {
     }
 
     return (
-        <section    className="grid row-gap-3 col-gap-1"
-                    style={{ gridTemplateColumns: 'repeat(4, minmax(320px, 1fr))' }}>
-            {skills.map(skill => renderSkill(skill))}
-        </section>
+        <span>
+            <Header iconName="FaPencilAlt" text="skills" />
+            <section    className="grid row-gap-3 col-gap-1"
+                        style={{ gridTemplateColumns: 'repeat(4, minmax(320px, 1fr))' }}>
+                {skills.map(skill => renderSkill(skill))}
+            </section>
+        </span>
     );
 }
 
