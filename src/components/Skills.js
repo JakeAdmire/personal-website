@@ -10,7 +10,7 @@ const Skills = () => {
 
         return (
             <div className="m-auto">
-                <div    className="flex items-center border rounded-lg py-1  pr-4"
+                <div    className="flex items-center border rounded-lg py-1 pr-4 cursor-default transition duration-300 ease hover:bg-gray-100"
                         style={{ width: '20rem' }}
                         id="skill-card">
                     <span className="text-2xl px-4">
