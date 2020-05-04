@@ -1,8 +1,10 @@
+import * as Icons from '../components/Icons';
+
 module.exports = {
     skills: [
         {
             title: 'Web Design & Development',
-            icon: null,
+            icon: Icons.FaHtml5,
             related: [
                 'HTML',
                 'CSS',
@@ -12,7 +14,7 @@ module.exports = {
         },
         {
             title: 'Front-End Frameworks',
-            icon: null,
+            icon: Icons.FaReact,
             related: [
                 'Angular #',
                 'React',
@@ -22,7 +24,7 @@ module.exports = {
         },
         {
             title: 'Back-End Frameworks',
-            icon: null,
+            icon: Icons.FaNodeJs,
             related: [
                 'Node.js',
                 'Express.js',
@@ -30,7 +32,7 @@ module.exports = {
         },
         {
             title: 'UI/UX Design',
-            icon: null,
+            icon: Icons.FaPencilAlt,
             related: [
                 'Adobe XD',
                 'Figma',
@@ -40,7 +42,7 @@ module.exports = {
         },
         {
             title: 'Database Management System',
-            icon: null,
+            icon: Icons.FaDatabase,
             related: [
                 'PostgreSQL',
                 'SOQL',
