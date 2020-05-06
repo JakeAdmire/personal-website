@@ -9,7 +9,8 @@ import {
     FaGraduationCap,
     FaBriefcase,
     FaGithub,
-    FaEnvelope
+    FaEnvelope,
+    FaLinkedin
 } from "react-icons/fa";
 
 export {
@@ -23,5 +24,6 @@ export {
     FaGraduationCap,
     FaBriefcase,
     FaGithub,
-    FaEnvelope
+    FaEnvelope,
+    FaLinkedin
 };
