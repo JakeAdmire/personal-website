@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Typist from "react-typist";
 
+import Social from "../components/Social";
+
 const Hero = () => {
     const [isTypingDone, setTypingStatus] = useState(false);
 
@@ -17,10 +19,10 @@ const Hero = () => {
                 <h3 className="text-5xl">UI Developer</h3>
                 <Typist.Delay ms={300} />
             </Typist>
-            <p className={`transition duration-1000 ${isTypingDone ? 'opacity-50' : 'opacity-0'}`}>
+            <p className={`transition ${isTypingDone ? 'opacity-50 duration-1000' : 'opacity-0'}`}>
                 Front-End Developer / UI Designer
             </p>
-            {/* incrementally load links */}
+            <Social isTypingDone={isTypingDone} />
         </header>
     );
 }

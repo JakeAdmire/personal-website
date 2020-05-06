@@ -1,8 +1,8 @@
 import React from "react";
 
-import * as Icons from "./Icons";
+import * as Icons from "../components/Icons";
 import skills from "../data/skills";
-import Header from "./Header";
+import Header from "../components/Header";
 
 
 const Skills = () => {
