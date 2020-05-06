@@ -10,7 +10,7 @@ const Wrapper = ({ children }) => {
     <div>
       <SEO />
 
-      <div className="mx-8 lg:mx-16">{children}</div>
+      <div className="mx-8 lg:mx-16 grid grid-cols-1 gap-24">{children}</div>
       <ReactTooltip />
     </div>
   );
