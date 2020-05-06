@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Email",
+        "link": "mailto:jakeadmire1@gmail.com",
+        "icon": "FaEnvelope"
+    },
+    {
+        "title": "LinkedIn",
+        "link": "mailto:jakeadmire1@gmail.com",
+        "icon": "FaLinkedin"
+    },
+    {
+        "title": "GitHub",
+        "link": "mailto:jakeadmire1@gmail.com",
+        "icon": "FaGithub"
+    }
+]
