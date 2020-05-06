@@ -12,7 +12,7 @@ const Footer = () => {
   }
 
   return (
-    <footer className="flex flex-col my-8">
+    <footer className="flex flex-col">
       {data.map(str => renderString(str))}
     </footer>
   )
