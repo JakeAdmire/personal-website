@@ -1,1 +1,6 @@
 @import './css/Home.scss';
+
+* {
+    @apply font-sans;
+    @apply box-border;
+}
